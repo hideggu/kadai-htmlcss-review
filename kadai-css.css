@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+/* ボディ部分 全体（ヘッダーからフッターまで）の要素 */
+body {
+    width: 1000px;
+}
+
+/*　ヘッダー部分 */
+header {
+    background-color: #ffcccc;
+}
+
+/*　ラッパー部分 2カラムレイアウト */
+#wrapper {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+#main {
+    width: 700px;
+    background-color: #ccffcc;
+}
+
+#menu {
+    width: 300px;
+    background-color: #ccccff;
+}
+
+/*　フッター部分 */
+footer {
+    background-color: #ffccff;
+}
